@@ -1,1 +1,16 @@
 add your code
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the student performance dataset
+df = pd.read_csv("student-mat.csv", sep=";")
+
+# Scatterplot: Study Time vs Final Grade (G3)
+plt.figure(figsize=(8,5))
+plt.scatter(df["studytime"], df["G3"])
+plt.xlabel("Study Time (1–4 scale)")
+plt.ylabel("Final Grade (G3)")
+plt.title("Study Time vs Final Grade (Student Performance Dataset)")
+plt.grid(True)
+plt.show()
