@@ -1,0 +1,41 @@
+add report later
+
+Student Performance - Report * 
+(COMP3125 Individual Project)
+*Note: Do not used sub-title
+ 
+
+Given Name Surname - Yvens Dorce
+dept. name of organization 
+ 
+ 
+ 
+Abstract— This project analyzes student academic performance using the UCI Student Performance dataset. It explores how study habits, school factors, and demographic characteristics influence final exam grades. A regression model is used to predict outcomes and identify key predictors.
+Keywords— student performance, regression, education analytics, study habits
+I.	INTRODUCTION (HEADING 1)
+	Predicting student academic performance has become an essential task in modern educational analytics. Understanding which factors—such as study habits, absences, family background, or school environment—influence grades helps educators create better interventions. Previous research has shown that multivariate factors, including socioeconomic status and study time, can strongly affect learning outcomes. This project analyzes the UCI Student Performance dataset to examine these influences and develop a regression model to predict final student grades.
+II.	DATASETS
+A.	Source of dataset (Heading 2)
+Predicting student academic performance has become an essential task in modern educational analytics. Understanding which factors—such as study habits, absences, family background, or school environment—influence grades helps educators create better interventions. Previous research has shown that multivariate factors, including socioeconomic status and study time, can strongly affect learning outcomes. This project analyzes the UCI Student Performance dataset to examine these influences and develop a regression model to predict final student grades.
+
+B.	Character of the datasets
+Describe the dataset’s format and size. Additionally, provide an overview of the dataset’s characteristics, including its features, size, structure, and any relevant attributes that are important for your analysis. Describe the dataset’s format and size, as well as its key features, including the parameters, columns, rows, and character attributes along with their respective units. Using a table to present this information is recommended for clarity. Explain whether you cleaned the data or converted any units, specifying the formulas or rules applied. If multiple datasets were combined, describe how they were merged. Additionally, mention if you created any new categories for analysis, detailing what they are and how they were generated. Providing this background ensures transparency and helps readers understand the reliability and relevance of your data. 
+
+III.	METHODOLOGY
+•	A Linear Regression model was chosen due to its interpretability and ability to show how each factor contributes to predicted grades. The scikit-learn LinearRegression module was used. Features such as study time, failures, and absences were used as predictors. Train-test split ensured that model performance was evaluated properly.
+IV.	RESULTS
+A.	A scatterplot visualization of study time versus final grade shows a general positive trend, indicating that more study time is associated with slightly higher grades. The regression model revealed that study time, failures, and absences are significant predictors, though absences had a negative correlation with grades.
+
+V.	DISCUSSION
+The model’s limitations include non-linear relationships and categorical variables that may require more advanced models such as Random Forests. The dataset is limited to two schools, reducing generalizability. Future improvements could include additional datasets and more complex models.
+
+VI.	CONCLUSION
+The project demonstrates that study habits and specific school-related factors significantly influence student performance. The regression model provides insight into the predictors of academic success and may help inform educational interventions.
+
+ACKNOWLEDGMENT (Heading 5)
+The student thanks the COMP3125 instructors for guidance. REFERENCES [1] Cortez, P., & Silva, A. (2008). Using Data Mining to Predict Secondary School Student Performance.
+REFERENCES
+P. CORTEZ AND A. SILVA, “USING DATA MINING TO PREDICT SECONDARY SCHOOL STUDENT PERFORMANCE,” UNIVERSITY OF MINHO, PORTUGAL, 2008. UCI MACHINE LEARNING REPOSITORY.
+AVAILABLE: HTTPS://ARCHIVE.ICS.UCI.EDU/DATASET/320/STUDENT+PERFORMANCE
+[2] M. YOUNG, THE TECHNICAL WRITER’S HANDBOOK. MILL VALLEY, CA: UNIVERSITY SCIENCE, 1989.
+
